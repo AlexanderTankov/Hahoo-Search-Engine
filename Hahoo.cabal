@@ -19,6 +19,6 @@ executable Hahoo
   main-is:             Main.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base, bytestring, containers
+  build-depends:       base, bytestring, containers, tagsoup, http-conduit, dequeue
   hs-source-dirs:      src
   default-language:    Haskell2010
